@@ -23,9 +23,14 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
-
   font-size: 1rem;
   line-height: 1.5rem;
+  text-align: center;
+}
+
+.site {
+  width: 414px;
+  margin: auto;
 }
 
 a {
@@ -37,6 +42,15 @@ video {
   max-inline-size: 100%;
   block-size: auto;
   vertical-align: text-top;
+}
+
+.dnd-logo {
+  padding: 14px 0 5px;
+}
+
+.header-img {
+  border-top: 3px solid red;
+  border-bottom: 2px solid red;
 }
 
 /* ====================================
